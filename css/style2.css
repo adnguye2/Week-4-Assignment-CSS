@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div.container {
+    border: 5px solid #8C1515;
+    width: 80%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px; 
+  }
+  
+  header {
+    background-color: burlywood; 
+  }
+  
+  .hero img {
+    width: 100%;
+  }
+  
+  div.left, div.middle, div.right {
+    border: 3px solid green;
+    width: 30%;
+    margin: 10px;
+    padding: 0; 
+  }
+  
+  div.left img, div.middle img, div.right img {
+    width: 100%;
+    height: 100%; 
+    border: none;
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  aside img {
+    width: 100%;
+  }
+  
+  aside {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+  
+  nav {
+    background-color: dimgray;
+  }
+  
+  ul {
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+    width: 150px;
+    border: 2px solid white;
+    line-height: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    vertical-align: middle; 
+  }
+  a {
+    color: #ffffff; 
+    text-decoration: none;
+    border: 1px solid red;
+    display: block;
+  }
